@@ -1,5 +1,8 @@
+http://example.com/2022/04/24/c-%E6%95%B0%E7%BB%84/
+http://example.com/tags/index-1.html
 http://example.com/2022/04/24/%E7%AE%80%E5%8D%95%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8Bblog%E7%9A%84%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/
 http://example.com/categories/index.html
+http://example.com/about/index.html
 http://example.com/2022/04/23/Git%E5%91%BD%E4%BB%A4/
 http://example.com/tags/index.html
 http://example.com/
