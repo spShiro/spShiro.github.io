@@ -1,34 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>lalalala</title>
   
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-04-23T07:12:52.452Z</updated>
+  <updated>2022-04-24T11:38:04.743Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>Super Shiro</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2022/04/23/hello-world/"/>
-    <id>http://example.com/2022/04/23/hello-world/</id>
+    <title>简单记录一下blog的主题配置</title>
+    <link href="http://example.com/2022/04/24/%E7%AE%80%E5%8D%95%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8Bblog%E7%9A%84%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
+    <id>http://example.com/2022/04/24/%E7%AE%80%E5%8D%95%E8%AE%B0%E5%BD%95%E4%B8%80%E4%B8%8Bblog%E7%9A%84%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/</id>
+    <published>2022-04-24T08:16:00.000Z</published>
+    <updated>2022-04-24T11:38:04.743Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="blog主题配置的简单记录（butterfly）"><a href="#blog主题配置的简单记录（butterfly）" class="headerlink" title="blog主题配置的简单记录（butterfly）"></a>blog主题配置的简单记录（butterfly）</h1><h3 id="1-位于：blog-config-yml，设置网站个人资料"><a href="#1-位于：blog-config-yml，设置网站个人资料" class="headerlink" title="1.位于：blog_config.yml，设置网站个人资料"></a>1.位于：blog_config.yml，设置网站个人资料</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: Hexo</span><br><span class="line">subtitle: &#x27;&#x27;     //副标题</span><br><span class="line">description: &#x27;&#x27;  //个人说明</span><br><span class="line">keywords:</span><br><span class="line">author: John Doe //作者</span><br><span class="line">language: en</span><br><span class="line">timezone: &#x27;&#x27;     //时区（一般不进行配置）   </span><br></pre></td></tr></table></figure><h3 id="2-位于：blog-themes-XXX-source-config-yml，设置主题配置文件"><a href="#2-位于：blog-themes-XXX-source-config-yml，设置主题配置文件" class="headerlink" title="2.位于：blog\themes\XXX\source_config.yml，设置主题配置文件"></a>2.位于：blog\themes\XXX\source_config.yml，设置主题配置文件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  主页: / || fas fa-home</span><br><span class="line">  博文 || fa fa-graduation-cap:</span><br><span class="line">    分类: /categories/ || fa fa-archive</span><br><span class="line">    标签: /tags/ || fa fa-tags</span><br><span class="line">    归档: /archives/ || fa fa-folder-open</span><br><span class="line">  生活 || fas fa-list:</span><br><span class="line">    分享: /shuoshuo/ || fa fa-comments-o</span><br><span class="line">    相册: /photos/ || fa fa-camera-retro</span><br><span class="line">    音乐: /music/ || fa fa-music</span><br><span class="line">    影视: /movies/ || fas fa-video</span><br><span class="line">  友链: /links/ || fa fa-link</span><br><span class="line">  留言板: /comment/ || fa fa-paper-plane</span><br><span class="line">  #留言板: /messageboard/ || fa fa-paper-plane</span><br><span class="line">  关于笔者: /about/ || fas fa-heart  </span><br></pre></td></tr></table></figure><p>受缩进字符的影响，导航菜单有包含关系。</p><h3 id="3-代码块限制设置"><a href="#3-代码块限制设置" class="headerlink" title="3.代码块限制设置"></a>3.代码块限制设置</h3><p>①位于：blog\themes\XXX\source_config.yml,</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">highlight_copy: true   //用于打开代码复制</span><br><span class="line">highlight_shrink: false   //代码框展开，反之不展开</span><br><span class="line">highlight_theme: light   //更改代码高亮主题</span><br></pre></td></tr></table></figure><h3 id="4-创建文件夹"><a href="#4-创建文件夹" class="headerlink" title="4.创建文件夹"></a>4.创建文件夹</h3><p>①分类</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure><p>之后会出现source/categories/index.md文件。<br>然后添加type: “categories” layout:”categories”到内容中</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: 分类</span><br><span class="line">date: 2022-04-24 16:16:00</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">layout: &quot;categories&quot;</span><br></pre></td></tr></table></figure><p>打开需要分类的文章，为其添加categories属性</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 233</span><br><span class="line">date: 2022-04-24 16:16:00</span><br><span class="line">categories:</span><br><span class="line"> - c     </span><br><span class="line"> - x       \\一片文章只能属于一个分类，hexo会将其分类嵌套，该文章属于c下方的x分类</span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>②标签</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure><p>会出现source/tags/index.md文件：</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;blog主题配置的简单记录（butterfly）&quot;&gt;&lt;a href=&quot;#blog主题配置的简单记录（butterfly）&quot; class=&quot;headerlink&quot; title=&quot;blog主题配置的简单记录（butterfly）&quot;&gt;&lt;/a&gt;blog主题配置的简单记录（</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于Git命令</title>
+    <link href="http://example.com/2022/04/23/Git%E5%91%BD%E4%BB%A4/"/>
+    <id>http://example.com/2022/04/23/Git%E5%91%BD%E4%BB%A4/</id>
     <published>2022-04-23T04:39:45.204Z</published>
-    <updated>2022-04-23T07:12:52.452Z</updated>
+    <updated>2022-04-24T10:58:29.723Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="LALALALALA"><a href="#LALALALALA" class="headerlink" title="LALALALALA"></a>LALALALALA</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="关于Git命令"><a href="#关于Git命令" class="headerlink" title="关于Git命令"></a>关于Git命令</h1><h3 id="新建新文章"><a href="#新建新文章" class="headerlink" title="新建新文章"></a>新建新文章</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n “新文章名称”</span><br></pre></td></tr></table></figure><h3 id="创建新分类"><a href="#创建新分类" class="headerlink" title="创建新分类"></a>创建新分类</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure><h3 id="创建新标签"><a href="#创建新标签" class="headerlink" title="创建新标签"></a>创建新标签</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure><h3 id=""><a href="#" class="headerlink" title=""></a></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+    <summary type="html">&lt;h1 id=&quot;关于Git命令&quot;&gt;&lt;a href=&quot;#关于Git命令&quot; class=&quot;headerlink&quot; title=&quot;关于Git命令&quot;&gt;&lt;/a&gt;关于Git命令&lt;/h1&gt;&lt;h3 id=&quot;新建新文章&quot;&gt;&lt;a href=&quot;#新建新文章&quot; class=&quot;headerlink&quot; ti</summary>
       
     
     
